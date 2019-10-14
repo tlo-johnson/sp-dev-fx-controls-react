@@ -32,7 +32,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.0">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.3">
     
     
       
@@ -40,9 +40,9 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/application.0284f74d.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/application.30686662.css">
       
-        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.01803549.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.a8b3c06d.css">
       
       
         
@@ -190,7 +190,7 @@
         
   <li class="md-tabs__item">
     
-      <a href="../.." title="Home" class="md-tabs__link">
+      <a href="../.." class="md-tabs__link">
         Home
       </a>
     
@@ -206,7 +206,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../ChartControl/" title="Controls" class="md-tabs__link">
+        <a href="../ChartControl/" class="md-tabs__link">
           Controls
         </a>
       
@@ -221,7 +221,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../fields/main/" title="Field Controls" class="md-tabs__link">
+        <a href="../fields/main/" class="md-tabs__link">
           Field Controls
         </a>
       
@@ -236,7 +236,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../../about/release-notes/" title="About" class="md-tabs__link">
+        <a href="../../about/release-notes/" class="md-tabs__link">
           About
         </a>
       
@@ -248,7 +248,7 @@
   </div>
 </nav>
       
-      <main class="md-main">
+      <main class="md-main" role="main">
         <div class="md-main__inner md-grid" data-md-component="container">
           
             
@@ -485,14 +485,14 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#how-to-use-this-control-in-your-solutions" title="How to use this control in your solutions" class="md-nav__link">
+  <a href="#how-to-use-this-control-in-your-solutions" class="md-nav__link">
     How to use this control in your solutions
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#implementation" title="Implementation" class="md-nav__link">
+  <a href="#implementation" class="md-nav__link">
     Implementation
   </a>
   
@@ -967,14 +967,14 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#how-to-use-this-control-in-your-solutions" title="How to use this control in your solutions" class="md-nav__link">
+  <a href="#how-to-use-this-control-in-your-solutions" class="md-nav__link">
     How to use this control in your solutions
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#implementation" title="Implementation" class="md-nav__link">
+  <a href="#implementation" class="md-nav__link">
     Implementation
   </a>
   
@@ -1008,6 +1008,10 @@
 <img alt="DateTimePicker 24-hour clock" src="../../assets/DateTimePicker-24h.png" /></p>
 <p><strong>DateTime Picker Date Only</strong><br />
 <img alt="DateTimePicker Date Only" src="../../assets/DateTimePicker-dateOnly.png" /></p>
+<p><strong>DateTime Picker No Seconds</strong><br />
+<img alt="DateTimePicker Date Only" src="../../assets/DateTimePicker-noseconds.png" /></p>
+<p><strong>DateTime Picker Dropdowns for Time Part</strong><br />
+<img alt="DateTimePicker Date Only" src="../../assets/DateTimePicker-dropdown.png" /></p>
 <h2 id="how-to-use-this-control-in-your-solutions">How to use this control in your solutions<a class="headerlink" href="#how-to-use-this-control-in-your-solutions" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Check that you installed the <code>@pnp/spfx-controls-react</code> dependency. Check out the <a href="../#getting-started">getting started</a> page for more information about installing the dependency.</li>
@@ -1141,6 +1145,37 @@
 <td>boolean</td>
 <td>no</td>
 <td>Specifies, if seconds dropdown should be shown, defaults to false.</td>
+</tr>
+<tr>
+<td>timeDisplayControlType</td>
+<td>TimeDisplayControlType</td>
+<td>no</td>
+<td>Specifies what type of control to use when rendering time part.</td>
+</tr>
+<tr>
+<td>showLabels</td>
+<td>boolean</td>
+<td>no</td>
+<td>Specifies if labels in front of date and time parts should be rendered.</td>
+</tr>
+</tbody>
+</table>
+<p>Enum <code>TimeDisplayControlType</code></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Text</td>
+<td>Renders Time part as Masked Edit</td>
+</tr>
+<tr>
+<td>Dropdown</td>
+<td>Renders Time part as Dropdown</td>
 </tr>
 </tbody>
 </table>
@@ -1306,7 +1341,7 @@
       
     </div>
     
-      <script src="../../assets/javascripts/application.245445c6.js"></script>
+      <script src="../../assets/javascripts/application.ac79c3b0.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
       
