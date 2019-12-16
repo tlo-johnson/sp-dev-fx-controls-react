@@ -32,7 +32,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.0">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
     
     
       
@@ -40,9 +40,9 @@
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/application.0284f74d.css">
+      <link rel="stylesheet" href="assets/stylesheets/application.1b62728e.css">
       
-        <link rel="stylesheet" href="assets/stylesheets/application-palette.01803549.css">
+        <link rel="stylesheet" href="assets/stylesheets/application-palette.a8b3c06d.css">
       
       
         
@@ -51,12 +51,12 @@
       
     
     
-      <script src="assets/javascripts/modernizr.74668098.js"></script>
+      <script src="assets/javascripts/modernizr.268332fc.js"></script>
     
     
       
         <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
     
@@ -188,7 +188,7 @@
         
   <li class="md-tabs__item">
     
-      <a href="." title="Home" class="md-tabs__link md-tabs__link--active">
+      <a href="." class="md-tabs__link md-tabs__link--active">
         Home
       </a>
     
@@ -200,7 +200,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="controls/Carousel/" title="Controls" class="md-tabs__link">
+        <a href="controls/Carousel/" class="md-tabs__link">
           Controls
         </a>
       
@@ -213,7 +213,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="controls/fields/main/" title="Field Controls" class="md-tabs__link">
+        <a href="controls/fields/main/" class="md-tabs__link">
           Field Controls
         </a>
       
@@ -228,7 +228,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="about/release-notes/" title="About" class="md-tabs__link">
+        <a href="about/release-notes/" class="md-tabs__link">
           About
         </a>
       
@@ -240,7 +240,7 @@
   </div>
 </nav>
       
-      <main class="md-main">
+      <main class="md-main" role="main">
         <div class="md-main__inner md-grid" data-md-component="container">
           
             
@@ -312,7 +312,7 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#getting-started" title="Getting started" class="md-nav__link">
+  <a href="#getting-started" class="md-nav__link">
     Getting started
   </a>
   
@@ -320,14 +320,14 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#installation" title="Installation" class="md-nav__link">
+  <a href="#installation" class="md-nav__link">
     Installation
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#configuration" title="Configuration" class="md-nav__link">
+  <a href="#configuration" class="md-nav__link">
     Configuration
   </a>
   
@@ -339,7 +339,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#available-controls" title="Available controls" class="md-nav__link">
+  <a href="#available-controls" class="md-nav__link">
     Available controls
   </a>
   
@@ -1013,7 +1013,7 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#getting-started" title="Getting started" class="md-nav__link">
+  <a href="#getting-started" class="md-nav__link">
     Getting started
   </a>
   
@@ -1021,14 +1021,14 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#installation" title="Installation" class="md-nav__link">
+  <a href="#installation" class="md-nav__link">
     Installation
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#configuration" title="Configuration" class="md-nav__link">
+  <a href="#configuration" class="md-nav__link">
     Configuration
   </a>
   
@@ -1040,7 +1040,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#available-controls" title="Available controls" class="md-nav__link">
+  <a href="#available-controls" class="md-nav__link">
     Available controls
   </a>
   
@@ -1070,7 +1070,7 @@
 <p><img alt="Placeholder example" src="assets/placeholder-intro.png" /></p>
 <div class="admonition attention">
 <p class="admonition-title">Attention</p>
-<p>The controls project has a minimal dependency on SharePoint Framework version <code>1.3.0</code>. Be aware that the controls might not work in solutions your building for on-premises. As for on-premises solutions version <code>1.1.0</code> is currently used.</p>
+<p>The controls project has a minimal dependency on SharePoint Framework version <code>1.3.0</code>. Be aware that the controls might not work in solutions your building for SharePoint 2016 with Feature Pack 2 on-premises. As for SharePoint 2016 with Feature Pack 2 version <code>1.1.0</code> of the SharePoint framework is the only version that can be used. SharePoint 2019 on-premises uses SharePoint framework <code>v1.4.0</code> and therefore should be fine to use with these controls.</p>
 </div>
 <h2 id="getting-started">Getting started<a class="headerlink" href="#getting-started" title="Permanent link">&para;</a></h2>
 <h3 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h3>
@@ -1093,9 +1093,12 @@
 <h2 id="available-controls">Available controls<a class="headerlink" href="#available-controls" title="Permanent link">&para;</a></h2>
 <p>The following controls are currently available:</p>
 <ul>
-<li><a href="./controls/ChartControls">Charts</a> (makes it easy to integrate <a href="https://www.chartjs.org/">Chart.js</a> charts into web part)</li>
+<li><a href="./controls/Carousel">Carousel</a> (Control displays children elements with 'previous/next element' options)</li>
+<li><a href="./controls/ChartControl">Charts</a> (makes it easy to integrate <a href="https://www.chartjs.org/">Chart.js</a> charts into web part)</li>
 <li><a href="./controls/DateTimePicker">DateTimePicker</a> (DateTime Picker)</li>
+<li><a href="./controls/FilePicker">FilePicker</a> (control that allows to browse and select a file from various places)</li>
 <li><a href="./controls/FileTypeIcon">FileTypeIcon</a> (Control that shows the icon of a specified file path or application)</li>
+<li><a href="./controls/GridLayout">GridLayout</a> (control that renders a responsive grid layout for your web parts)</li>
 <li><a href="./controls/IFrameDialog">IFrameDialog</a> (renders a Dialog with an iframe as a content)</li>
 <li><a href="./controls/ListItemPicker">ListItemPicker</a> (allows to select one or more items from a list)</li>
 <li><a href="./controls/ListPicker">ListPicker</a> (allows to select one or multiple available lists/libraries of the current site)</li>
@@ -1108,8 +1111,6 @@
 <li><a href="./controls/SecurityTrimmedControl">SecurityTrimmedControl</a> (intended to be used when you want to show or hide components based on the user permissions)</li>
 <li><a href="./controls/TaxonomyPicker">TaxonomyPicker</a> (Taxonomy Picker)</li>
 <li><a href="./controls/WebPartTitle">WebPartTitle</a> (Customizable web part title control)</li>
-<li><a href="./controls/IFrameDialog">IFrameDialog</a> (renders a Dialog with an iframe as a content)</li>
-<li><a href="./controls/Carousel">Carousel</a> (Control displays children elements with 'previous/next element' options)</li>
 </ul>
 <p>Field customizer controls:</p>
 <div class="admonition note">
@@ -1131,6 +1132,7 @@
 <p><img alt="" src="https://telemetry.sharepointpnp.com/sp-dev-fx-controls-react/wiki" /></p>
                 
                   
+                
                 
               
               
@@ -1195,7 +1197,7 @@
       
     </div>
     
-      <script src="assets/javascripts/application.245445c6.js"></script>
+      <script src="assets/javascripts/application.808e90bb.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:"."}})</script>
       
